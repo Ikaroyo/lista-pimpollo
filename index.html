@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilla Jugadores</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .jugadores-lista {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            text-align: center;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .tarjeta-jugador {
+            width: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .tarjeta-jugador p {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+            align-items: center;
+            justify-content: space-between;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 10px;
+        }
+
+        .tarjeta-jugador p b {
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .tarjeta-jugador h2 {
+            margin-bottom: 10px;
+            color: rgb(255, 75, 75);
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .tarjeta-jugador img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        p.hidden {
+            display: none;
+        }
+
+        .logo-equipo {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img/test.png" alt="" class="logo-equipo">
+    <h1>Lista de jugadores</h1>
+    <div class="jugadores-lista">
+        <div class="tarjeta-jugador">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRiGJTgjNn3p9oO65BLYUFUaw4vhu8PYupauSOVhkV2g&s"
+                alt="Jugador 1" class="logo-image">
+            <div></div>
+            <h2>FRIAS Matias</h2>
+            <p><b>Fecha Nac:</b> 18/3/2013</p>
+            <p><b>DNI:</b> 54.554.368
+            <p>
+            <p><b>Posición:</b> Delantero</p>
+            <p><b>Edad:</b> 37</p>
+            <p><b>Altura:</b> 130cm</p>
+            <p><b>Peso:</b> 57kg</p>
+            <p><b>Nacionalidad:</b> Argentino</p>
+            <p><b>Observaciones:</b> TDHA</p>
+            <p><b>Tutor:</b> Don Ramon</p>
+            <p><b>Tel. Tutor:</b> 2657123456</p>
+        </div>
+        <div class="tarjeta-jugador">
+            <img src="https://i.pinimg.com/474x/e7/1e/ee/e71eeea8ab7a8244e10da948f71870ec.jpg" alt="Jugador 1"
+                class="logo-image">
+            <h2>FRIAS Matias</h2>
+            <p><b>Fecha Nac:</b> 18/3/2013</p>
+            <p><b>DNI:</b> 54.554.368
+            <p>
+            <p><b>Posición:</b> Delantero</p>
+            <p><b>Edad:</b> </p>
+            <p><b>Altura:</b> </p>
+            <p><b>Peso:</b> </p>
+            <p><b>Nacionalidad:</b> </p>
+            <p><b>Observaciones:</b> TDHA</p>
+            <p><b>Tutor:</b> Don Ramon</p>
+            <p><b>Tel. Tutor:</b> 2657123456</p>
+        </div>
+        <div class="tarjeta-jugador">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRiGJTgjNn3p9oO65BLYUFUaw4vhu8PYupauSOVhkV2g&s"
+                alt="Jugador 1" class="logo-image">
+            <h2>FRIAS Matias</h2>
+            <p><b>Fecha Nac:</b> 18/3/2013</p>
+            <p><b>DNI:</b> 54.554.368
+            <p>
+            <p><b>Posición:</b> Delantero</p>
+            <p><b>Edad:</b> 37</p>
+            <p><b>Altura:</b> 130cm</p>
+            <p><b>Peso:</b> 57kg</p>
+            <p><b>Nacionalidad:</b> Argentino</p>
+            <p><b>Observaciones:</b> TDHA</p>
+            <p><b>Tutor:</b> Don Ramon</p>
+            <p><b>Tel. Tutor:</b> 2657123456</p>
+        </div>
+        <div class="tarjeta-jugador">
+            <img src="https://i.pinimg.com/474x/e7/1e/ee/e71eeea8ab7a8244e10da948f71870ec.jpg" alt="Jugador 1"
+                class="logo-image">
+            <h2>FRIAS Matias</h2>
+            <p><b>Fecha Nac:</b> 18/3/2013</p>
+            <p><b>DNI:</b> 54.554.368
+            <p>
+            <p><b>Posición:</b> Delantero</p>
+            <p><b>Edad:</b> </p>
+            <p><b>Altura:</b> </p>
+            <p><b>Peso:</b> </p>
+            <p><b>Nacionalidad:</b> </p>
+            <p><b>Observaciones:</b> TDHA</p>
+            <p><b>Tutor:</b> Don Ramon</p>
+            <p><b>Tel. Tutor:</b> 2657123456</p>
+        </div>
+    </div>
+
+
+    <script>
+        window.onload = function () {
+            ocultarElementosTarjetas();
+            addEventListenerToLogoImage();
+        }
+
+        function ocultarElementosTarjetas() {
+            // add class .hidden to every element inside .tarjeta-jugador except for .logo-image and h2
+            const tarjetasJugadores = document.querySelectorAll('.tarjeta-jugador');
+            tarjetasJugadores.forEach(tarjetaJugador => {
+                // for every element inside .tarjeta-jugador except for .logo-image and h2
+                tarjetaJugador.querySelectorAll('p').forEach(element => {
+                    element.classList.add('hidden');
+                });
+            });
+        }
+
+        function addEventListenerToLogoImage() {
+            // when click on .logo-image go to its parent which is .tarjeta-jugador and change all the p elements to display: flex
+
+            const logoImages = document.querySelectorAll('.logo-image');
+
+            const h2Jugadores = document.querySelectorAll('.tarjeta-jugador h2');
+
+            logoImages.forEach(logoImage => {
+                logoImage.addEventListener('click', function () {
+                    const tarjetaJugador = this.closest('.tarjeta-jugador');
+                    tarjetaJugador.querySelectorAll('p').forEach(element => {
+                        element.classList.toggle('hidden');
+                    })
+                });
+            });
+
+            h2Jugadores.forEach(h2Jugador => {
+                h2Jugador.addEventListener('click', function () {
+                    const tarjetaJugador = this.closest('.tarjeta-jugador');
+                    tarjetaJugador.querySelectorAll('p').forEach(element => {
+                        element.classList.toggle('hidden');
+                    })
+                });
+            });
+
+        }
+
+
+    </script>
+</body>
+
+</html>
