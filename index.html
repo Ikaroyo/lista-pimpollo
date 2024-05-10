@@ -112,6 +112,11 @@
             margin-bottom: 20px;
 
         }
+
+        .open-card {
+            width: 100vw;
+            height: 100vh;
+        }
     </style>
 </head>
 
@@ -217,6 +222,15 @@
                     tarjetaJugador.querySelectorAll('p').forEach(element => {
                         element.classList.toggle('hidden');
                     })
+                    if (tarjetaJugador.classList.contains('open-card')) {
+                        tarjetaJugador.classList.remove('open-card');
+                    }
+                    else {
+                        tarjetaJugador.classList.add('open-card');
+                    }
+
+                    // scroll to the top of the tarjeta-jugador
+                    tarjetaJugador.scrollIntoView({ behavior: 'smooth' });
                 });
             });
 
@@ -226,6 +240,16 @@
                     tarjetaJugador.querySelectorAll('p').forEach(element => {
                         element.classList.toggle('hidden');
                     })
+                    if (tarjetaJugador.classList.contains('open-card')) {
+                        tarjetaJugador.classList.remove('open-card');
+
+                    }
+                    else {
+                        tarjetaJugador.classList.add('open-card');
+                    }
+
+                    // scroll to the top of the tarjeta-jugador
+                    tarjetaJugador.scrollIntoView({ behavior: 'smooth' });
                 });
             });
 
